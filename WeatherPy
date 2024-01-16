@@ -1,1 +1,16 @@
+# Build scatter plot for latitude vs. temperature
+x_values = city_data['lat']
+y_values = city_data['temp']
+plt.scatter(x_values,y_values)
+plt.xlabel('Latitude')
+plt.ylabel('Temperature')
+plt.show()
 
+# Incorporate the other graph properties
+# YOUR CODE HERE
+
+# Save the figure
+plt.savefig("output_data/Fig1.png")
+
+# Show plot
+plt.show()
